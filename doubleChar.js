@@ -1,3 +1,4 @@
+//function doubles each char from the string given
 function doubleChar(str) {
   let newStr = '';
   for (let i = 0; i < str.length; i++){
