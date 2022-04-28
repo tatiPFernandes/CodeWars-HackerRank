@@ -1,5 +1,5 @@
 
-function monkeyCount(n) {
+const monkeyCount = (n) =>{
     
       
      let monkey = [];
