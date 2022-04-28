@@ -10,5 +10,5 @@ function monkeyCount(n) {
     }
       return monkey;
       }
-      console.log(monkeyCount(20));
+      console.log(monkeyCount(10));
     
