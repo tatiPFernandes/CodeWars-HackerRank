@@ -1,20 +1,19 @@
-const sum = (n1,n2) =>{
-    return n1 + n2
-}
-
-const sub =(n1,n2)=>{
-    return n1 - n2
-}
-
-const divide= (n1,n2)=>{
-    return n1 / n2
-}
-
-const times = (n1,n2) =>{
-    return n1 * n2
-}
-
 const calculator = (n1, n2, operation) =>{
+    const sum = (n1,n2) =>{
+        return n1 + n2
+    }
+    
+    const sub =(n1,n2)=>{
+        return n1 - n2
+    }
+    
+    const divide= (n1,n2)=>{
+        return n1 / n2
+    }
+    
+    const times = (n1,n2) =>{
+        return n1 * n2
+    }
 
     const operations = {
         sum: sum(n1, n2),
@@ -27,7 +26,7 @@ const calculator = (n1, n2, operation) =>{
   
 }; 
 
-const result = calculator(10,5,"sum")
+const result = calculator(10,5,"times")
 console.log(result) 
 
 
