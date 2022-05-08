@@ -1,4 +1,4 @@
-const storePayment = (product) => {
+const paymentMethod = (product) => {
     let discout = 10;
     let total = parseFloat(product).toFixed(2)
     
@@ -12,4 +12,4 @@ const storePayment = (product) => {
 
 }
 
-console.log(`Product price: £${storePayment(60.83)}`)
+console.log(`Product price: £${paymentMethod(60.83)}`)
